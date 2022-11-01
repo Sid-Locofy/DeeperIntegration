@@ -64,52 +64,6 @@ const Homepage: FunctionComponent = () => {
       <>
         <div className={styles.homepageDiv}>
           <div className={styles.heroSectionDiv}>
-            <header className={styles.topHeader}>
-              <div className={styles.topContainerDiv}>
-                <button className={styles.fickleflightLogoButton}>
-                  <img
-                    className={styles.symbolsIcon}
-                    alt=""
-                    src="../symbols1.svg"
-                  />
-                </button>
-                <div className={styles.navigationRightDiv}>
-                  <div className={styles.navigationMenuDiv}>
-                    <button className={styles.exploreButton}>Explore</button>
-                    <div
-                      className={styles.searchDiv}
-                      onClick={onSearchTextClick}
-                    >
-                      Search
-                    </div>
-                    <div
-                      className={styles.searchDiv}
-                      onClick={onHotelsTextClick}
-                    >
-                      Hotels
-                    </div>
-                    <button className={styles.offersButton}>Offers</button>
-                  </div>
-                  <div className={styles.accountSectionDiv}>
-                    <img
-                      className={styles.hamburgerMenuIcon}
-                      alt=""
-                      src="../notification.svg"
-                    />
-                    <img
-                      className={styles.notificationBellIcon}
-                      alt=""
-                      src="../notification1.svg"
-                    />
-                    <img
-                      className={styles.profilePictureIcon}
-                      alt=""
-                      src="../top_avatar@2x.png"
-                    />
-                  </div>
-                </div>
-              </div>
-            </header>
             <div className={styles.searchSectionDiv}>
               <div className={styles.bannerGradientDiv} />
               <img
