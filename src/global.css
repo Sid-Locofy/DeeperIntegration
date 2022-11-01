@@ -52,7 +52,8 @@ body {
 
   /* Gaps */
   --gap-0: 0px;
-  --gap-8xs: 3px;
+  --gap-9xs: 3px;
+  --gap-8xs: 4px;
   --gap-7xs: 5px;
   --gap-6xs: 6px;
   --gap-5xs: 7px;
